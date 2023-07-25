@@ -1,0 +1,18 @@
+<div class="card">
+    <div class="widget-title">Leave Balances</div>
+    <div class="row">
+        <div class="col">
+
+            <div class="progress-bar">
+                <div class="progress" [style.width.%]="progressValue"></div>
+            </div>
+            <div class="info d-flex justify-content-between">
+                <p>Total Leaves : {{ totalLeaves }}</p>
+                <p>Used Leaves : {{ leavesSubtracted }}</p>
+            </div>
+
+            <div class="widget-msg">Everyone is at office!</div>
+            <div class="widget-msg-deatils">No one is working remotely today.</div>
+        </div>
+    </div>
+</div>

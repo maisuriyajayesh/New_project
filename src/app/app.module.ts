@@ -9,6 +9,9 @@ import { HomeDashboardComponent } from './home-dashboard/home-dashboard.componen
 import { HomePendingActionsWidgetComponent } from './home-dashboard/widget/home-pending-actions-widget/home-pending-actions-widget.component';
 import { HomeHolidaysWidgetComponent } from './home-dashboard/widget/home-holidays-widget/home-holidays-widget.component';
 import { HomeOnLeaveWidgetComponent } from './home-dashboard/widget/home-on-leave-widget/home-on-leave-widget.component';
+import { HomeWorkingRemotelyWidgetComponent } from './home-dashboard/widget/home-working-remotely-widget/home-working-remotely-widget.component';
+import { HomeAttendanceClockinWidgetComponent } from './home-dashboard/widget/home-attendance-clockin-widget/home-attendance-clockin-widget.component';
+import { HomeLeaveBalancesWidgetComponent } from './home-dashboard/widget/home-leave-balances-widget/home-leave-balances-widget.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { HomeOnLeaveWidgetComponent } from './home-dashboard/widget/home-on-leav
     HomeDashboardComponent,
     HomePendingActionsWidgetComponent,
     HomeHolidaysWidgetComponent,
-    HomeOnLeaveWidgetComponent
+    HomeOnLeaveWidgetComponent,
+    HomeWorkingRemotelyWidgetComponent,
+    HomeAttendanceClockinWidgetComponent,
+    HomeLeaveBalancesWidgetComponent
   ],
   imports: [
     BrowserModule,
