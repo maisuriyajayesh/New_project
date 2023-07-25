@@ -1,0 +1,38 @@
+.side-bar {
+    background-color: #273143;
+    width: 137px;
+    height: calc(100vh - 50px);
+    position: fixed;
+    .navbar {
+        margin: 0;
+        padding: 0;
+        .navbar-nav {
+            width: 100%;
+            li {
+                width: 100%;
+                text-align: center;
+                padding: 10px;
+                .nav-link {
+                    width: 100%;
+                    color: #7c8492;
+                    i {
+                        display: block;
+                        font-size: 18px;
+                    }
+                    span{
+                        font-size: 14px;
+                    }
+                }
+                &:hover{
+                    background-color: #333d4d;
+                    transition: 600ms ease-out;
+                    .nav-link{
+                        color: #fff;
+                        transition: 600ms ease-out;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
